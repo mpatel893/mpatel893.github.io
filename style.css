@@ -1,42 +1,41 @@
 
 body{
-    background-color: #197278;}
+    background-color: #1a1010;}
 
-.Recangle{position:
-    absolute;
-    left:50%;
-    right: 50%;
-    transform: 
-    translate(-50%,-50%);
-    width: 1000px;
-    height: 100px;
-    background-color:#EDDDD4;}
 h1{
-    color: #C44536;
+    color: #f2f1f1;
     font-size: 3em;
     margin-top: 30px;
     margin-left: 30px;}
 h2 {
-    color: #C44536;
-}
+    text-align: center;
+    color: #f2f1f1;}
 p {
-    color:#EDDDD4;}
-
+    text-align: justify;
+    color:#EDDDD4;
+    font-size: 20px;
+    padding-left: 400px;
+    padding-right: 400px;}
+p-2{
+    text-align: center;
+    color:#EDDDD4;
+    font-size: 20px;
+    padding-left: 400px;
+    padding-right: 400px;}
 ul {
-    color: black;
+    color: #f2f1f1;
     float: right;
     list-style: none;;
     margin-top: 20px;}
-
 ul li{
     display: inline-block}
 
 ul li a{ 
     text-decoration: none;
-    color: black;
+    color: #f2f1f1;
     padding: 5px 20px;
-    border: 1px solid black;}
+    border: 1px solid #f2f1f1;}
 
 ul li a:hover{
-    background-color:black;
+    background-color:#f2f1f1;
     color:#EDDDD4;}
