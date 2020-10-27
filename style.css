@@ -21,34 +21,45 @@ span{
     text-indent: 1px;
 
 }
-img{
+img{    
     border: 0;
 }
 img.viet{
     height: auto;
-    width: 100%;
+    width: 890px;
 }
 img.Buddhist_Crisis{
     height: auto;
-    width: 100%;
+    width: 890px;
 }
 img.Westmoreland{
     height: auto;
-    width: 100%;
+    width:  890px;
 }
 img.End_of_Vietnam_war{
     height: auto;
-    width: 100%;
+    width:  890px;
 }
 img.Viet_Cong{
     height: auto;
-    width: 100%;
+    width: 890px;
 }
 img.gulf-of-tonkin-warfare{
     height: auto;
-    width: 100%;
+    width:  890px;
 }
-
+img.Tet_Offensive{
+    height: auto;
+    width:  890px;
+}
+img.My_Lai_Massacre{
+    height: auto;
+    width:  890px;
+}
+img.US_Soldiers{
+    height: auto;
+    width:  890px;
+}
 figcaption {
     display: block;
     font-size: .7em;
