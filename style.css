@@ -1,58 +1,224 @@
-body{
+html{
+    height: auto;
+}
+*{
     margin: 0;
     padding: 0;
 }
-
-header{
-    width: 100%;
-    height: 70px;
-    background-color: #245448;
+body{
+    font: normal 1.2em arial, sans-serif;
+    background: white;
 }
-h1{
-    position: absolute;
-    padding: 3px;
-    float: left;
-    margin-left: 2%;
-    margin-top: 10px;
-    font-family: 'Playfair Display', serif;
-    font-size: 2.5em;
-    color: #e04422;
+
+p{
+    width: 890px;
+    padding: 0 0 16px 0;
+    line-height: 1.7em;
+    text-align: justify;
+}
+span{
+    text-align: left;
+    text-indent: 1px;
+
+}
+img{
+    border: 0;
+}
+img.viet{
+    height: auto;
+    width: 100%;
+}
+img.Buddhist_Crisis{
+    height: auto;
+    width: 100%;
+}
+img.Westmoreland{
+    height: auto;
+    width: 100%;
+}
+img.End_of_Vietnam_war{
+    height: auto;
+    width: 100%;
+}
+img.Viet_Cong{
+    height: auto;
+    width: 100%;
+}
+img.gulf-of-tonkin-warfare{
+    height: auto;
+    width: 100%;
+}
+
+figcaption {
+    display: block;
+    font-size: .7em;
+    margin-bottom: 20px;
+}
+h1, h2, h3{
+    font: normal 175% 'century gothic', arial, sans-serif;
+    color: #111;
+    margin: 0 0 15px 0;
+    padding: 15px 0 5px 0;
 }
 h2{
-    text-align: center;
-    font-family: 'Playfair Display', serif;
-    font-size: 2em;
-    color: black;
+    font: normal 175% 'century gothic', arial, sans-serif;
+    color: #111111
+    ;
 }
-p{
-    padding-left: 400px;
-    padding-right: 400px;
-    text-indent: 40px;
-    text-align: justify;
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    color: black;
-    
-
+h3{
+    font: 'century gothic', arial, sans-serif;
+    color: #111111;
+    font-weight: 700;
+}
+a, a:hover{
+    outline: none;
+    color: #111111;
+    text-decoration: underline;
+}
+a.hover{
+    text-decoration: none;
 }
 ul{
-    width: auto;
-    float: right;
-    margin-top: 8px;
+    margin: 2px 0 22px 17px;
 }
-li{
-    display: inline-block;
-    padding: 15px 20px;
-}
-a{
-    text-align: center;
-    color: #f6f6f6;
-    text-decoration: none;
-    font-family: 'Playfair Display', serif;
-    font-size: 1.2em;
+ul li{
+    font: normal .9em 'century gothic', arial, sans-serif;
+    list-style-type: disc;
+    margin: 0 0 6px 0;
+    padding: 0 0 4px 5px;
 }
 
-a:hover{
-    color: #e04422;
-    transition: 0.5s;
+#main, #header, #logo, #menubar, #site_content, #footer{
+    margin-left: auto;
+    margin-right: auto;
+}
+#logo{
+    width: 100%;
+    position: relative;
+    height: 200px;
+    background: url(logo.jpg) ;
+}
+#logo #logo_text{
+    position: absolute;
+    left: 30px;
+}
+#logo h1{
+    font: normal 300% 'century gothic', arial, sans-serif;
+    margin-bottom: 10em;
+    text-transform: none;
+    margin: 0;
+    color: white;
+}
+#logo_text h1 a:hover{
+    padding: 10px 0 0 0;
+    color: white;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+}
+#menubar
+{ width: 890px;
+  height: 35px;
+  padding: 8px 0 0 0;
+  margin: -45px 0 0 0;
+  position: relative;
+  z-index: 1;
+  float: right;} 
+
+ul#menu
+{ float: right;
+  margin: 0;}
+
+ul#menu li
+{ float: left;
+  margin: 5px 0 0 0;
+  padding: 0 0 0 6px;
+  list-style: none;}
+
+ul#menu li a{ 
+  font: normal 1.1em arial, sans-serif;
+  text-transform: uppercase;
+  display: block; 
+  float: left; 
+  height: 20px;
+  text-decoration: none; 
+  padding: 4px 22px 15px 10px;
+  text-align: center;
+  color: #FFF;
+  border: 0;} 
+
+ul#menu li a:hover{ 
+    color: #888;}
+
+#site_content{
+
+    width: 1500px;
+    overflow: hidden;
+    background: #f8f8f8;
+}
+.sidebar {
+    float: left;
+    width: 200px;
+    padding: 20px 25px 15px 15px;
+}
+.sidebar ul{
+    width: 178px;
+    padding:  4px 0 0 0;
+    margin:   4px 0 30px 10px;
+}
+.sidebar li{
+    padding:  0 0 7px 0;
+}
+.sidebar li a.selected{
+    color: #444444;
+    text-decoration: none;
+}
+#content h1{
+    text-align: center;
+}
+#content_bibliography{
+    text-align: center;
+    width: 890px;
+    float: left;
+    padding: 20px 0 15px 30px;
+}
+#content{
+    text-align: left;
+    width: 600px;
+    float: left;
+    padding: 20px 0 15px 30px;
+}
+#content ul{
+    padding: 20px 0 15px 0;
+}
+#content ul li{
+    font-size: .7em ;
+    list-style-type: none;
+    background: url(bullet.png) no-repeat;
+    margin: 0 0 6px 0; 
+    padding: 0 0 4px 25px;
+    line-height: 1.5em;
+}
+#footer{ 
+    background: url(logo.jpg);
+    position: static;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    text-align: center; 
+    color: white;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    font-size: 1em;
+}
+#bibliography_footer{ 
+    background: url(logo.jpg);
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    text-align: center; 
+    color: white;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    font-size: 1em;
 }
